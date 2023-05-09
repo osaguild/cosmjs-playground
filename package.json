@@ -1,0 +1,14 @@
+{
+  "name": "cosmjs-playground",
+  "version": "0.1.0",
+  "repository": "https://github.com/osaguild/cosmjs-playground.git",
+  "author": "osaguild <nobuhisa.abe.0922@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "experiment": "ts-node experiment.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

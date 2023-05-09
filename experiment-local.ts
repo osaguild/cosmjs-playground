@@ -45,7 +45,10 @@ const runAll = async (): Promise<void> => {
   const result = await signingClient.sendTokens(
     alice,
     faucet,
-    [{ denom: "stake", amount: "100000" }],
+    [
+      { denom: "stake", amount: "100000" },
+      { denom: "token", amount: "12" },
+    ],
     {
       amount: [{ denom: "stake", amount: "500" }],
       gas: "200000",

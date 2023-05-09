@@ -8,6 +8,7 @@
     "experiment": "ts-node experiment.ts"
   },
   "devDependencies": {
+    "@cosmjs/proto-signing": "^0.30.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   }
